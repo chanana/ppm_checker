@@ -5,7 +5,7 @@ def plus_minus(ref, ppm):
     return(pls, mis)
 
 while True:
-    ref, ppm = [float(x) for x in raw_input("Enter Ref <space> PPM: ").split()]
+    ref, ppm = [float(x) for x in raw_input("Enter mass <space> PPM: ").split()]
     print(plus_minus(ref, ppm))
     i = raw_input("Press any key to continue or ENTER to exit")
     if not i:
